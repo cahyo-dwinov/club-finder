@@ -10,6 +10,5 @@ const {firstName, lastName, age} = profile;
 console.log(firstName, lastName, age);
 
 
-
 const {nationality} = profile;
 console.log(nationality);
