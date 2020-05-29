@@ -12,3 +12,12 @@ console.log(firstName, lastName, age);
 
 const {nationality} = profile;
 console.log(nationality);
+
+//Spreading
+const favorites = ["Seafood", "Pecel", "Bakso", "Mie"];
+const others = ["Roti", "Pizza", "Donat"];
+
+const allFavorites = [...favorites, ...others];
+console.log(allFavorites);
+
+
